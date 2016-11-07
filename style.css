@@ -1,0 +1,12 @@
+
+img {
+	width:720px;
+	height:540px;
+}
+body {
+	background-color: #333;
+	color: red;
+}
+table {
+	border:10px solid purple;
+}
