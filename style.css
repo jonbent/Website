@@ -5,8 +5,56 @@ img {
 }
 body {
 	background-color: #333;
+	background-image: url(mario.png);
 	color: red;
 }
 table {
 	border-color: purple;
 }
+
+div#car-pic{
+	display:inline-block;
+	width:50%;
+
+}
+
+div#desc{
+	display: inline-block;
+	width:49%;
+	vertical-align: top;
+	font-size: 25px;
+	margin-right:7px;
+	margin-left:-5px;
+	font-family: "Comic Sans MS", cursive, sans-serif
+}
+h1#head{
+	width:30%;
+	text-align: center;
+	margin:auto;
+}
+a:visited{
+	color:black;
+}
+
+.font{
+	font-family: cursive;
+}
+
+@media screen and (max-width:1470px){
+	div#car-pic{
+		display:block;
+		margin:auto;
+	}
+	div#desc{
+		display:block;
+		margin:auto;
+	}
+	body{
+		border:3px dotted yellow;
+		padding:10px;
+	}
+	p{
+		text-align:center;
+	}
+}
+
